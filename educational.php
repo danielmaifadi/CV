@@ -10,7 +10,12 @@
 <body background="bgPicture.jpg">
 	<p id="header">
 		<?php
+		//start of php code
+		
+			//import header script
 			include("header.php");
+			
+		//end of php code
 		?>
 	</p>
 	<p align="center" id="links">
@@ -24,8 +29,11 @@
 	</p>
 	<br />
 	<br />
-	<?php
-	//Connect to database
+	<?
+	//start of php code
+	
+	
+		//Connect to database
 		include("db_connection.php");
 		
 		//sql select Statement for educational details
@@ -55,6 +63,8 @@
 			}
 			echo "</table>";
 		print "</div>";
+		
+	//end of php code
 	?>
 </body>
 </html>
