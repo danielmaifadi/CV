@@ -9,7 +9,12 @@
 <body background="bgPicture.jpg">
 	<p id="header">
 		<?php
+		//start of php code
+		
+			//import the header script
 			include("header.php");
+			
+		//end of php code
 		?>
 	</p>
 	<p align="center" id="links">
