@@ -7,12 +7,17 @@
 <link rel="stylesheet" type="text/css" href="login.css" media="all" />
 </head>
 
+
 <body background="education.jpg">
-	<p id="header">
+	<p id="header"> 
+	
+	 
 		<?php
+			//importing the header pages
 			include("header.php");
 		?>
 	</p>
+ 
 	<p align="center" id="links">
 		<a href="index.php">Home<a>    |    
 		<a href="personalDetails.php">Personal Details<a>    |    
@@ -25,7 +30,10 @@
 	<br />
 	<br />
 	<?php
-	//Connect to database
+	//start of php code
+	
+	
+	//Connect to database/importing php connection script
 		include("db_connection.php");
 		
 		//sql select Statement for contacts details
@@ -36,6 +44,8 @@
 		
 		//displaying data
 		print "<div id=\"content\">";
+		
+		//table and data
 			echo "<table align=\"center\" border=\"1\" bgcolor=\"black\">\n
 					<tr>
 						<td align=\"center\" colspan=\"4\" bgcolor=\"blue\">
@@ -56,6 +66,10 @@
 			}
 			echo "</table>";
 		print "</div>";
+		
+		
+	//end of php code
 	?>
+	
 </body>
 </html>
