@@ -10,7 +10,12 @@
 <body bgPicture="education.jpg">
 	<p id="header">
 		<?php
+		//start of php code
+		
+			//importing header script
 			include("header.php");
+			
+		//end of php code
 		?>
 	</p>
 	<p align="center" id="links">
@@ -25,7 +30,10 @@
 	<br />
 	<br />
 	<?php
-	//Connect to database
+	//start of php code
+	
+	
+		//Connect to database/import connection script
 		include("db_connection.php");
 		
 		$query = "select * from languages";
@@ -54,6 +62,8 @@
 			}
 			echo "</table>";
 		print "</div>";
+		
+	//end of php code
 	?>
 </body>
 </html>
