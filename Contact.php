@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="login.css" media="all" />
 </head>
 
-<body background="bgPicture.jpg">
+<body background="education.jpg">
 	<p id="header">
 		<?php
 			include("header.php");
