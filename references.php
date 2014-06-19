@@ -7,10 +7,15 @@
 <link rel="stylesheet" type="text/css" href="login.css" media="all" />
 </head>
 
-<body background="bgPicture.jpg">
+<body background="education.jpg">
 	<p id="header">
 		<?php
+		//start of php code
+		
+			//import the header script
 			include("header.php");
+			
+		//end of php code
 		?>
 	</p>
 	<p align="center" id="links">
@@ -25,7 +30,9 @@
 	<br />
 	<br />
 	<?php
-	//Connect to database
+	//start of php code
+	
+		//Connect to database
 		include("db_connection.php");
 		
 		//sql select Statement for references
@@ -57,6 +64,8 @@
 			}
 			echo "</table>";
 		print "</div>";
+		
+	//end of php code
 	?>
 </body>
 </html>
