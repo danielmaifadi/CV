@@ -13,9 +13,15 @@
 	
 	 
 		<?php
+		//start of php code
+	
+		
 			//importing the header pages
 			include("header.php");
+			
+		//end of php code
 		?>
+		
 	</p>
  
 	<p align="center" id="links">
